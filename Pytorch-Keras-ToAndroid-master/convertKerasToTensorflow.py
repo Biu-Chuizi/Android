@@ -1,3 +1,10 @@
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: convertKerasToTensorflow.py
+# Update: 2020/07/26
+# USAGE: 
+# Description: 
+########################################################################################################
 from keras.models import Model
 from keras.layers import *
 import os

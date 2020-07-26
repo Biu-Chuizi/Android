@@ -1,3 +1,10 @@
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: convertPytorchToKeras.py
+# Update: 2020/07/26
+# USAGE: 
+# Description: 
+########################################################################################################
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
