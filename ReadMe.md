@@ -2,4 +2,4 @@
 
 * [TensorFlowLiteDemo](TensorflowDemoLite.md)
 
-* 
+* [TensorFlowDemo](TensorflowDemo.md)
