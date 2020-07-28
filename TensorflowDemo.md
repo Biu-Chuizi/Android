@@ -13,7 +13,7 @@ git clone https://github.com/tensorflow/tensorflow
 
 打开Android Studio，选择 “Open an existing Android Studio project”，在“Open File or Project ”，选择在2）中对应的 tensorflow/examples/android 文件夹，OK。如果需要“Gradle Sync”，选择OK。第一次启动可能需要安装或更新很多模块，耐心等待。
 
-4） 在 build.gradle 文件中（在左侧 1:Project 面板  Android 下面 Gradle Scripts ），找到  nativeBuildSystem 这个变量，设置等于 “none”:
+4） 在 build.gradle 文件中（在左侧 1:Project 面板  Android 下面 Gradle Scripts/build.gradle ），找到  nativeBuildSystem 这个变量，设置等于 “none”:
 ```
 // set to 'bazel', 'cmake', 'makefile', 'none'
 def nativeBuildSystem = 'none'
